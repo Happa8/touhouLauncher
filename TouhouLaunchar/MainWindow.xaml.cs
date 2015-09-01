@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +23,16 @@ namespace TouhouLaunchar
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            //System.Diagnostics.ProcessStartInfo th06StartInfo = new System.Diagnostics.ProcessStartInfo();
+            //th06StartInfo.FileName = "D:\\東方\\東方紅魔郷\\東方紅魔郷.exe";
+
+            System.Diagnostics.Process th06Start = System.Diagnostics.Process.Start("D:\\東方\\東方紅魔郷\\東方紅魔郷.exe");
+
+
         }
     }
 }

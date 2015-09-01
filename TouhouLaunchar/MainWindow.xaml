@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TouhouLaunchar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="東方ランチャー" Height="350" Width="525">
     <Grid>
-        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="234,101,0,0" VerticalAlignment="Top"/>
-
+        <Button x:Name="button" Content="th06" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
     </Grid>
 </Window>
