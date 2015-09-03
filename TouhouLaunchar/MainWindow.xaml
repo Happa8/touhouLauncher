@@ -17,5 +17,9 @@
         <Button x:Name="th13" Content="th13" HorizontalAlignment="Left" Margin="170,38,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.04,-0.333" Click="th13_Click"/>
         <Button x:Name="th14" Content="th14" HorizontalAlignment="Left" Margin="250,38,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.133,-0.625" Click="th14_Click"/>
         <Button x:Name="th15" Content="th15" HorizontalAlignment="Left" Margin="330,38,0,0" VerticalAlignment="Top" Width="75" Click="th15_Click"/>
+        <Button x:Name="th095" Content="th095" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.373,0.5" Click="th095_Click"/>
+        <Button x:Name="th125" Content="th125" HorizontalAlignment="Left" Margin="90,67,0,0" VerticalAlignment="Top" Width="75" Click="th125_Click"/>
+        <Button x:Name="th128" Content="th128" HorizontalAlignment="Left" Margin="170,67,0,0" VerticalAlignment="Top" Width="75" Click="th128_Click"/>
+        <Button x:Name="th143" Content="th143" HorizontalAlignment="Left" Margin="250,67,0,0" VerticalAlignment="Top" Width="75" Click="th143_Click"/>
     </Grid>
 </Window>

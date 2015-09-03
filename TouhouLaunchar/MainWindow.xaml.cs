@@ -79,5 +79,25 @@ namespace TouhouLaunchar
         {
             System.Diagnostics.Process th15Start = System.Diagnostics.Process.Start("D:\\東方\\東方紺珠伝\\th15.exe");
         }
+
+        private void th095_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th095Start = System.Diagnostics.Process.Start("D:\\東方\\東方文花帖\\th095.exe");
+        }
+
+        private void th125_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th125Start = System.Diagnostics.Process.Start("D:\\東方\\ダブルスポイラー\\th125.exe");
+        }
+
+        private void th128_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th128Start = System.Diagnostics.Process.Start("D:\\東方\\妖精大戦争\\th128.exe");
+        }
+
+        private void th143_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th143Start = System.Diagnostics.Process.Start("D:\\東方\\弾幕アマノジャク\\th143.exe");
+        }
     }
 }
