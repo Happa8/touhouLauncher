@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="東方ランチャー" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="th06" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
+        <Button x:Name="th06" Content="th06" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
+        <Button x:Name="th07" Content="th07" HorizontalAlignment="Left" Margin="127,9,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.32,0.083" Click="button1_Click"/>
     </Grid>
 </Window>

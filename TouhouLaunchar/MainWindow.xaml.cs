@@ -34,5 +34,10 @@ namespace TouhouLaunchar
 
 
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th07Start = System.Diagnostics.Process.Start("D:\\東方\\東方妖々夢\\th07.exe");
+        }
     }
 }
