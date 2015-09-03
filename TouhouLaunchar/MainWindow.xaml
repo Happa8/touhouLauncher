@@ -7,7 +7,15 @@
         mc:Ignorable="d"
         Title="東方ランチャー" Height="350" Width="525">
     <Grid>
-        <Button x:Name="th06" Content="th06" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
-        <Button x:Name="th07" Content="th07" HorizontalAlignment="Left" Margin="127,9,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.32,0.083" Click="button1_Click"/>
+        <Button x:Name="th06" Content="th06" HorizontalAlignment="Left" Height="24" Margin="10,9,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="th07" Content="th07" HorizontalAlignment="Left" Margin="90,9,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.32,0.083" Click="button1_Click"/>
+        <Button x:Name="th08" Content="th08" HorizontalAlignment="Left" Margin="170,9,0,0" VerticalAlignment="Top" Width="75" Click="th08_Click"/>
+        <Button x:Name="th09" Content="th09" HorizontalAlignment="Left" Margin="250,9,0,0" VerticalAlignment="Top" Width="75" Click="th09_Click"/>
+        <Button x:Name="th10" Content="th10" HorizontalAlignment="Left" Margin="330,9,0,0" VerticalAlignment="Top" Width="75" Click="th10_Click"/>
+        <Button x:Name="th11" Content="th11" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="75" Cursor="" Click="th11_Click"/>
+        <Button x:Name="th12" Content="th12" HorizontalAlignment="Left" Margin="90,38,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.253,-0.042" Click="th12_Click"/>
+        <Button x:Name="th13" Content="th13" HorizontalAlignment="Left" Margin="170,38,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.04,-0.333" Click="th13_Click"/>
+        <Button x:Name="th14" Content="th14" HorizontalAlignment="Left" Margin="250,38,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.133,-0.625" Click="th14_Click"/>
+        <Button x:Name="th15" Content="th15" HorizontalAlignment="Left" Margin="330,38,0,0" VerticalAlignment="Top" Width="75" Click="th15_Click"/>
     </Grid>
 </Window>
