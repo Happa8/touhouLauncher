@@ -99,5 +99,25 @@ namespace TouhouLaunchar
         {
             System.Diagnostics.Process th143Start = System.Diagnostics.Process.Start("D:\\東方\\弾幕アマノジャク\\th143.exe");
         }
+
+        private void th105_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th105Start = System.Diagnostics.Process.Start("D:\\東方\\th105\\th105.exe");
+        }
+
+        private void th123_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th123Start = System.Diagnostics.Process.Start("D:\\東方\\th123\\th123.exe");
+        }
+
+        private void th135_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th135Start = System.Diagnostics.Process.Start("D:\\東方\\th135\\th135.exe");
+        }
+
+        private void th145_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process th145Start = System.Diagnostics.Process.Start("D:\\東方\\th145\\th145.exe");
+        }
     }
 }
