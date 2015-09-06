@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace TouhouLaunchar
 {
@@ -22,6 +23,17 @@ namespace TouhouLaunchar
         public Setting()
         {
             InitializeComponent();
+        }
+
+        private void th06Sansho_Click(object sender, RoutedEventArgs e)
+        {
+            var PassSetDialog = new CommonOpenFileDialog();
+            PassSetDialog.IsFolderPicker = true;
+            PassSetDialog.EnsureReadOnly = false;
+            PassSetDialog.AllowNonFileSystemItems = false;
+            PassSetDialog.DefaultDirectory = "C:\\";
+            var Result = PassSetDialog.ShowDialog();
+
         }
     }
 }

@@ -119,5 +119,11 @@ namespace TouhouLaunchar
         {
             System.Diagnostics.Process th145Start = System.Diagnostics.Process.Start("D:\\東方\\th145\\th145.exe");
         }
+
+        private void openSetting_Click(object sender, RoutedEventArgs e)
+        {
+            Setting SetObj = new Setting();
+            SetObj.ShowDialog();
+        }
     }
 }

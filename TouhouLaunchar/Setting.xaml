@@ -9,7 +9,11 @@
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="437">
             <TabItem x:Name="passSetting" Header="Pass">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="th06pass" Content="th06" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="52,12,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="300"/>
+                    <Button x:Name="th06Sansho" Content="参照" HorizontalAlignment="Left" Margin="357,11,0,0" VerticalAlignment="Top" Width="60" Click="th06Sansho_Click"/>
+                </Grid>
             </TabItem>
             <TabItem x:Name="savepassSetting" Header="savepass">
                 <Grid Background="#FFE5E5E5"/>

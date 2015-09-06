@@ -26,5 +26,6 @@
         <Button x:Name="th123" Content="th123" HorizontalAlignment="Left" Margin="209,169,0,0" VerticalAlignment="Top" Width="75" Click="th123_Click"/>
         <Button x:Name="th135" Content="th135" HorizontalAlignment="Left" Margin="289,169,0,0" VerticalAlignment="Top" Width="75" Click="th135_Click"/>
         <Button x:Name="th145" Content="th145" HorizontalAlignment="Left" Margin="369,169,0,0" VerticalAlignment="Top" Width="75" Click="th145_Click"/>
+        <Button x:Name="openSetting" Content="設定" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="openSetting_Click"/>
     </Grid>
 </Window>
